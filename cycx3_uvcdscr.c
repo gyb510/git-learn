@@ -4,10 +4,7 @@
  ##
  ##  Copyright Cypress Semiconductor Corporation, 2013-2014,
  ##  All Rights Reserved
- ##  UNPUBLISHED, LICENSED SOFTWARE.
- ##
- ##  CONFIDENTIAL AND PROPRIETARY INFORMATION
- ##  WHICH IS THE PROPERTY OF CYPRESS.
+
  ##
  ##  Use of this file is governed
  ##  by the license agreement included in the file
