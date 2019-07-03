@@ -43,14 +43,6 @@ const uint8_t CyCx3USB30DeviceDscr[] =
     0xC3, 0x00,                         /* Product ID */
     0x03, 0x01,                         /* Device release number */
 
-    0x01,                               /* Device protocol */
-    0x40,                               /* Maxpacket size for EP0 : 64 bytes */
-
-    0x03,                               /* Serial number string index */
-    0x01                                /* Number of configurations */
-};
-
-/* Binary Device Object Store (BOS) Descriptor */
 const uint8_t CyCx3USBBOSDscr[] =
 {
     0x05,                               /* Descriptor size */
