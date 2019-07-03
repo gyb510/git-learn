@@ -43,14 +43,6 @@ const uint8_t CyCx3USB30DeviceDscr[] =
     0xC3, 0x00,                         /* Product ID */
     0x03, 0x01,                         /* Device release number */
 
-/* Standard Device Descriptor for USB 2 */
-const uint8_t CyCx3USB20DeviceDscr[] =
-{
-    0x12,                               /* Descriptor size */
-    CY_U3P_USB_DEVICE_DESCR,            /* Device descriptor type */
-    0x10, 0x02,                         /* USB 2.1 */
-    0xEF,                               /* Device class */
-    0x02,                               /* Device sub-class */
     0x01,                               /* Device protocol */
     0x40,                               /* Maxpacket size for EP0 : 64 bytes */
     0xB4, 0x04,                         /* Vendor ID */
