@@ -34,11 +34,6 @@ const uint8_t CyCx3USB30DeviceDscr[] =
     0x10, 0x03,                         /* USB 3.0 */
     0xEF,                               /* Device class */
     0x02,                               /* Device Sub-class */
-    0x01,                               /* Device protocol */
-    0x09,                               /* Maxpacket size for EP0 : 2^9 */
-    0xB4, 0x04,                         /* Vendor ID */
-    0xC3, 0x00,                         /* Product ID */
-    0x03, 0x01,                         /* Device release number */
 
 const uint8_t CyCx3USBBOSDscr[] =
 {
