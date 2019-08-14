@@ -1,0 +1,39 @@
+{
+  "name": "git-learn",
+  "version": "1.0.1",
+  "main": "commitlint.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.0.3",
+    "standard-version": "^7.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyb510/git-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyb510/git-learn/issues"
+  },
+  "homepage": "https://github.com/gyb510/git-learn#readme",
+  "description": "",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
